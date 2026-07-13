@@ -20,6 +20,10 @@ compile_commands.json
 .cache/
 tmp/
 
+# Generated sources, diffs, build logs, manifests, and binaries for the
+# AccelWattch TENSOR Experiment A warp-supply sweep.
+src/cuda/accelwattch-ubench/generated/
+
 # Ignoring files without extension (but keep Makefile and files with extensions)
 src/cuda/GPU_Microbenchmark/ubench/**/*
 !src/cuda/GPU_Microbenchmark/ubench/**/*/

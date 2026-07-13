@@ -1,0 +1,6 @@
+variant_id,blockDim.x,blockDim.y,blockDim.z,gridDim.x,gridDim.y,gridDim.z,threads_per_block,warps_per_block,total_blocks,total_launched_threads,total_launched_warps,requested_work_relative_to_T0
+T0,128,4,1,16,16,1,512,16,256,131072,4096,1
+T1,128,2,1,16,16,1,256,8,256,65536,2048,0.5
+T2,128,1,1,16,16,1,128,4,256,32768,1024,0.25
+T3,64,1,1,16,16,1,64,2,256,16384,512,0.125
+T4,32,1,1,16,16,1,32,1,256,8192,256,0.0625
